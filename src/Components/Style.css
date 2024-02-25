@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Style for the container */
+.container {
+    width: 100%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the file input */
+  input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the list */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each file item */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the file info container */
+  .file-info {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the file name */
+  .file-name {
+    flex-grow: 1;
+    margin: 0;
+  }
+  
+  /* Style for the play/pause button */
+  .play-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the range input */
+  input[type="range"] {
+    width: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the audio player */
+  audio {
+    display: none;
+  }
+  .App{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+  }
